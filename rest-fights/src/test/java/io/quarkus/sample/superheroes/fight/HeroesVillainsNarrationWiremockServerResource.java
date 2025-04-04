@@ -26,7 +26,7 @@ public class HeroesVillainsNarrationWiremockServerResource implements QuarkusTes
     );
 
     return Map.of(
-      "quarkus.stork.hero-service.service-discovery.address-list", url,
+//      "quarkus.stork.hero-service.service-discovery.address-list", url,
       "quarkus.stork.villain-service.service-discovery.address-list", url,
       "quarkus.stork.narration-service.service-discovery.address-list", url
     );
